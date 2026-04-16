@@ -1,151 +1,158 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vacation Blog Clone</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header></header>
 
     <main class="container">
+      <section class="top-cards">
+        <article class="card">
+          <img src="./img/img1.jfif" alt="" />
+          <div class="overlay-content">
+            <span class="tag lifestyle">LIFESTYLE</span>
+            <h3>The Most Popular Places to Visit in the World</h3>
+            <p class="card-subtext">Top Places</p>
+          </div>
+        </article>
 
-        <section class="top-cards">
-            <article class="card">
-                <img src="./img/img1.jfif" alt="">
-                <div class="overlay-content">
-                <span class="tag lifestyle">LIFESTYLE</span>
-                <h3>The Most Popular Places to Visit in the World</h3>
-                <p>Top Places</p>
-                </div>
+        <article class="card">
+          <img src="./img/img2.jfif" alt="" />
+          <div class="overlay-content">
+            <span class="tag health">HEALTH</span>
+            <h3>Does Exercise Help with your Productivity</h3>
+            <p class="card-subtext">Health Chat</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="./img/img2.jfif" alt="" />
+          <div class="overlay-content">
+            <span class="tag gaming">GAMING</span>
+            <h3>Can Playing Video Games Help Reduce Stress?</h3>
+            <p class="card-subtext">Game Play</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="content-grid">
+        <section class="main-post">
+          <img src="./img/img4.jfif" alt="Lake travel destination" />
+          <p class="category">TRAVEL</p>
+          <h1>Where to Visit on Your Next Vacation</h1>
+          <p>
+            There are thousands of places you can visit on your next vacation.
+            In this post we'll show you the top destinations to consider for
+            your next adventure...
+          </p>
+          <a href="#" class="continue-link">Continue Reading ↗</a>
+
+          <section class="small-posts">
+            <article>
+              <img src="./img/img5.jfif" alt="Friends on beach" />
+              <h4>Time for the Beach and Friends</h4>
+              <p>
+                Many people live so close to amazing scenery, yet they rarely
+                take...
+              </p>
+              <a href="#" class="continue-link">Continue Reading ↗</a>
             </article>
 
-            <article class="card">
-                <img src="./img/img2.jfif" alt="">
-                <div class="overlay-content">
-               
-                <h3>Does Exercise Help with your Productivity</h3>
-                <p>Top Places</p>
-
-                </div>
+            <article>
+              <img src="./img/img6.jfif" alt="Night lake" />
+              <h4>Are you Ready for an Experience?</h4>
+              <p>
+                Check out these awesome places you'll want to visit as you set
+                your...
+              </p>
+              <a href="#" class="continue-link">Continue Reading ↗</a>
             </article>
 
-             <article class="card">
-                <img src="./img/img2.jfif" alt="">
-                <div class="overlay-content">
-                 <span class="tag gaming">GAMING</span>
-                <h3>Can Playing Video Games Help Reduce Stress?</h3>
-                <p>Top Places</p>
-                </div>
+            <article>
+              <img src="./img/img7.jfif" alt="Forest kids" />
+              <h4>Take Me Back in Time</h4>
+              <p>
+                How nice would that be to go back in time and enjoy the youth...
+              </p>
+              <a href="#" class="continue-link">Continue Reading ↗</a>
             </article>
-                       
+
+            <article>
+              <img src="./img/img8.jfif" alt="Workout" />
+              <h4>Here are the Best Ways to Train</h4>
+              <p>
+                Learn about the best ways to train to get the most of your
+                workout...
+              </p>
+              <a href="#" class="continue-link">Continue Reading ↗</a>
+            </article>
+          </section>
+          <section class="load-more-container">
+            <button class="load-more-btn">LOAD MORE ARTICLES</button>
+          </section>
         </section>
 
-        <section class="content-grid">
+        <aside class="sidebar">
+          <section class="newsletter">
+            <h3>Subscribe to our Newsletter</h3>
+            <form>
+              <input type="text" placeholder="First Name" />
+              <input type="email" placeholder="Email Address" />
+              <button type="submit">SUBSCRIBE</button>
+            </form>
+          </section>
 
-            <section class="main-post">
-                <img src="./img/img4.jfif" alt="Lake travel destination">
-                <p class="category">TRAVEL</p>
-                <h1>Where to Visit on Your Next Vacation</h1>
-                <p>
-                    There are thousands of places you can visit on your next vacation.
-                    In this post we'll show you the top destinations to consider for your next adventure...
-                </p>
-                <a href="#" class="continue-link">Continue Reading ↗</a>
+          <section class="categories">
+            <h3>Categories</h3>
+            <ul>
+              <li>Lifestyle <span>32</span></li>
+              <li>Health <span>41</span></li>
+              <li>Gaming <span>27</span></li>
+              <li>Travel <span>21</span></li>
+              <li>Food <span>15</span></li>
+              <li>Business <span>28</span></li>
+            </ul>
+          </section>
 
-                <section class="small-posts">
-                    <article>
-                        <img src="./img/img5.jfif" alt="Friends on beach">
-                        <h4>Time for the Beach and Friends</h4>
-                        <p>Many people live so close to amazing scenery, yet they rarely take...</p>
-                        <a href="#" class="continue-link">Continue Reading ↗</a>
-                    </article>
+          <section class="recent-posts">
+            <h3>Recent Posts</h3>
 
-                    <article>
-                        <img src="./img/img6.jfif" alt="Night lake">
-                        <h4>Are you Ready for an Experience?</h4>
-                        <p>Check out these awesome places you'll want to visit as you set your...</p>
-                        <a href="#" class="continue-link">Continue Reading ↗</a>
-                    </article>
+            <article class="recent-item">
+              <img src="./img/img9.jpg" alt="" />
+              <div>
+                <p>Top Destinations to Visit in the World</p>
+                <small>January 02, 2021</small>
+              </div>
+            </article>
 
-                    <article>
-                        <img src="./img/img7.jfif" alt="Forest kids">
-                        <h4>Take Me Back in Time</h4>
-                        <p>How nice would that be to go back in time and enjoy the youth...</p>
-                        <a href="#" class="continue-link">Continue Reading ↗</a>
-                    </article>
+            <article class="recent-item">
+              <img src="./img/img10.webp" alt="" />
+              <div>
+                <p>Experience the Future of the 3d Gaming Experience</p>
+                <small>January 04, 2021</small>
+              </div>
+            </article>
 
-                    <article>
-                        <img src="./img/img8.jfif" alt="Workout">
-                        <h4>Here are the Best Ways to Train</h4>
-                        <p>Learn about the best ways to train to get the most of your workout...</p>
-                        <a href="#" class="continue-link">Continue Reading ↗</a>
-                    </article>
-                </section>
-                 <section class="load-more-container">
-                    <button class="load-more-btn">LOAD MORE ARTICLES</button>
-                </section>
-            </section>
-
-            <aside class="sidebar">
-
-                <section class="newsletter">
-                    <h3>Subscribe to our Newsletter</h3>
-                    <form>
-                        <input type="text" placeholder="First Name">
-                        <input type="email" placeholder="Email Address">
-                        <button type="submit">SUBSCRIBE</button>
-                    </form>
-                </section>
-
-                <section class="categories">
-                    <h3>Categories</h3>
-                    <ul>
-                        <li>Lifestyle <span>32</span></li>
-                        <li>Health <span>41</span></li>
-                        <li>Gaming <span>27</span></li>
-                        <li>Travel <span>21</span></li>
-                        <li>Food <span>15</span></li>
-                        <li>Business <span>28</span></li>
-                    </ul>
-                </section>
-
-                <section class="recent-posts">
-                <h3>Recent Posts</h3>
-
-                    <article class="recent-item">
-                        <img src="./img/img9.jpg" alt="">
-                        <div>
-                            <p>Top Destinations to Visit in the World</p>
-                            <small>January 02, 2021</small>
-                        </div>
-                    </article>
-
-                    <article class="recent-item">
-                        <img src="./img/img10.jfif" alt="">
-                        <div>
-                            <p>Experience the Future of the 3d Gaming Experience</p>
-                            <small>January 04, 2021</small>
-                        </div>
-                    </article>
-
-                    <article class="recent-item">
-                        <img src="./img/img11.jfif" alt="">
-                        <div>
-                            <p>Take a Trip to The End of The World</p>
-                            <small>January 05, 2021</small>
-                        </div>
-                    </article>
-            </section>
-               
-            </aside>
-        </section>
-
+            <article class="recent-item">
+              <img src="./img/img11.jfif" alt="" />
+              <div>
+                <p>Take a Trip to The End of The World</p>
+                <small>January 05, 2021</small>
+              </div>
+            </article>
+          </section>
+        </aside>
+      </section>
     </main>
 
     <footer></footer>
-</body>
+  </body>
 </html>
