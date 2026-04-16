@@ -1,0 +1,134 @@
+:root {
+    --primary-color: #111;
+    --gray-bg: #f5f5f5;
+    --text-color: #333;
+    --tag-blue: #8b5cf6;
+    --tag-red: #ef4444;
+    --tag-yellow: #f59e0b;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: var(--gray-bg);
+    color: var(--text-color);
+}
+
+.container {
+    width: 1100px;
+    margin: 40px auto;
+}
+
+.top-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 40px;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.hero-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.card {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 250px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tag {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.lifestyle { background: var(--tag-blue); }
+.health { background: var(--tag-red); }
+.gaming { background: var(--tag-yellow); }
+
+.card h3 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    width: 80%;
+    font-family: 'Playfair Display', serif;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+}
+
+.main-post img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.main-post h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+}
+
+.small-posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 30px;
+}
+
+.small-posts img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.newsletter,
+.categories,
+.recent-posts {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
